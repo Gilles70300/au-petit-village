@@ -1,0 +1,9 @@
+<button (click)="orderBy = orderBy === 'asc' ? 'desc' : 'asc'">
+    Tri
+</button>
+
+<ul>
+    <li *ngFor="let p of prices | sortByPrice: orderBy">
+        {{ p.name }} - {{ p.price }}
+    </li>
+</ul>
