@@ -1,5 +1,9 @@
+<app-header></app-header>
+
+<h1>Accueil</h1>
+
 <button (click)="orderBy = orderBy === 'asc' ? 'desc' : 'asc'">
-    Tri
+    Tri par prix croissant/décroissant
 </button>
 
 <ul>
@@ -7,3 +11,5 @@
         {{ p.name }} - {{ p.price }}
     </li>
 </ul>
+
+<app-footer></app-footer>

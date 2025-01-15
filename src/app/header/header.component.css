@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+@font-face {
+    font-family: 'BubbleboddyNeue-Bold';
+    src: url('../../fonts/BubbleboddyNeue-Bold.woff')
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9D0A3;
+}
+
+img {
+    width: 80px;
+    height: auto;
+}
+
+nav {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Comfortaa';
+    font-size: 1rem;
+    color: #151217;
+}  
